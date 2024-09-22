@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Stopwatch with Pause</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div id="display">00:00:00</div>
+        <div class="buttons">
+            <button id="start" class="btn">Start</button>
+            <button id="pause" class="btn" disabled>Pause</button>
+            <button id="reset" class="btn">Reset</button>
+            <button id="lap" class="btn" disabled>Lap</button>
+        </div>
+        <div id="laps" class="laps"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
